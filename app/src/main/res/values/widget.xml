@@ -1,0 +1,13 @@
+<resources>
+    <color name="widget_text">#304B4D</color>
+    <color name="widget_secondary">#5B7473</color>
+    <color name="widget_glass_start">#EDE5F0EB</color>
+    <color name="widget_glass_end">#E5DBE3EF</color>
+    <color name="widget_outline">#ADFFFFFF</color>
+    <color name="widget_accent">#719D94</color>
+    <string name="widget_overview">ZhiNote · 今日概览</string>
+    <string name="widget_quick">ZhiNote · 快捷添加</string>
+    <string name="widget_todos">ZhiNote · 待办清单</string>
+    <string name="widget_progress">ZhiNote · 今日进度</string>
+    <string name="widget_description">你的笔记与待办，轻轻放在桌面。</string>
+</resources>

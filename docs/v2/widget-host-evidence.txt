@@ -1,0 +1,45 @@
+﻿
+> Widgets:
+    [0] id=2
+      host=HostId{user:0, app:10138, hostId:1024, pkg:com.miui.home}
+      provider=ProviderId{uid:10360, app:10360, cmp:ComponentInfo{com.example.zhinote/com.example.zhinote.widgets.Overv
+iewWidget}, profile:UserHandle{0}}
+      host.callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@7426a6d
+      views=android.widget.RemoteViews@b52ff8f
+      views_bitmap_memory=147456
+    [1] id=3
+      host=HostId{user:0, app:10138, hostId:1024, pkg:com.miui.home}
+      provider=ProviderId{uid:10360, app:10360, cmp:ComponentInfo{com.example.zhinote/com.example.zhinote.widgets.TodoL
+istWidget}, profile:UserHandle{0}}
+      host.callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@7426a6d
+      views=android.widget.RemoteViews@3ce921c
+      views_bitmap_memory=0
+    [2] id=5
+      host=HostId{user:0, app:10138, hostId:1024, pkg:com.miui.home}
+      provider=ProviderId{uid:10360, app:10360, cmp:ComponentInfo{com.example.zhinote/com.example.zhinote.widgets.Progr
+essWidget}, profile:UserHandle{0}}
+      host.callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@7426a6d
+      views=android.widget.RemoteViews@d20ee25
+      views_bitmap_memory=147456
+    [3] id=6
+      host=HostId{user:0, app:10138, hostId:1024, pkg:com.miui.home}
+      provider=ProviderId{uid:10360, app:10360, cmp:ComponentInfo{com.example.zhinote/com.example.zhinote.widgets.Quick
+AddWidget}, profile:UserHandle{0}}
+      host.callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@7426a6d
+      views=android.widget.RemoteViews@532dbfa
+      views_bitmap_memory=0
+   
+  Hosts:
+    [0] hostId=HostId{user:0, app:10138, hostId:1024, pkg:com.miui.home}
+      callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@7426a6d
+      widgets.size=4 zombie=false
+    [1] hostId=HostId{user:0, app:10131, hostId:2048, pkg:com.miui.personalassistant}
+      callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@ae9243e
+      widgets.size=0 zombie=false
+    [2] hostId=HostId{user:0, app:10131, hostId:2050, pkg:com.miui.personalassistant}
+      callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@443829f
+      widgets.size=0 zombie=false
+   
+  Grants:
+
+

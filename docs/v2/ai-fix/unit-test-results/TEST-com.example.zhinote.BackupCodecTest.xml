@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.zhinote.BackupCodecTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-15T10:12:25" hostname="DESKTOP-KEH8HE0" time="0.024">
+  <properties/>
+  <testcase name="summaryRoundTripsAndVersionOneRemainsReadable" classname="com.example.zhinote.BackupCodecTest" time="0.015"/>
+  <testcase name="orphanCategoryAndInconsistentCompletionAreRejected" classname="com.example.zhinote.BackupCodecTest" time="0.004"/>
+  <testcase name="corruptVersionDuplicatesAndInvalidCoordinatesAreRejected" classname="com.example.zhinote.BackupCodecTest" time="0.005"/>
+  <testcase name="allBusinessAndLayoutFieldsRoundTrip" classname="com.example.zhinote.BackupCodecTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

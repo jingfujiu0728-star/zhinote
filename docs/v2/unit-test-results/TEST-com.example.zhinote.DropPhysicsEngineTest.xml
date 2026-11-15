@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.zhinote.DropPhysicsEngineTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-15T09:22:34" hostname="DESKTOP-KEH8HE0" time="0.275">
+  <properties/>
+  <testcase name="dragIsClampedAndSavedInNormalizedCoordinates" classname="com.example.zhinote.DropPhysicsEngineTest" time="0.007"/>
+  <testcase name="goldenClusterContainsEveryDropWithoutRows" classname="com.example.zhinote.DropPhysicsEngineTest" time="0.054"/>
+  <testcase name="constellationAvoidsSubstantialOverlapOnCompactPhoneSpace" classname="com.example.zhinote.DropPhysicsEngineTest" time="0.096"/>
+  <testcase name="overlappingCentersStayFiniteAndSelectionDoesNotRemoveNotes" classname="com.example.zhinote.DropPhysicsEngineTest" time="0.026"/>
+  <testcase name="pressureAndBoundariesAtAllRequestedCounts" classname="com.example.zhinote.DropPhysicsEngineTest" time="0.091"/>
+  <system-out><![CDATA[Physics 10 drops: 1200 frames in 10.5537 ms (JVM, not device FPS)
+Physics 20 drops: 1200 frames in 19.6721 ms (JVM, not device FPS)
+Physics 40 drops: 1200 frames in 32.6336 ms (JVM, not device FPS)
+Physics 60 drops: 1200 frames in 21.5765 ms (JVM, not device FPS)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

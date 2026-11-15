@@ -1,0 +1,8 @@
+<resources>
+    <color name="widget_text">#E0ECE7</color>
+    <color name="widget_secondary">#BDCFCB</color>
+    <color name="widget_glass_start">#ED243D3D</color>
+    <color name="widget_glass_end">#E52F394A</color>
+    <color name="widget_outline">#405F7775</color>
+    <color name="widget_accent">#ADD1C4</color>
+</resources>

@@ -1,0 +1,9 @@
+{
+  "fixtureNotes": 100,
+  "uniqueFrameSamples": 16,
+  "meanFrameMs": 60.6567945625,
+  "p95FrameMs": 150.382454,
+  "framesOver16_67ms": 15,
+  "pssKb": 246445,
+  "note": "Debug UI gesture sample; FrameMetrics are not presented FPS"
+}

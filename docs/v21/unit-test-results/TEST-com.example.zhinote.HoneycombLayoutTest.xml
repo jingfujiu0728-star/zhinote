@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.zhinote.HoneycombLayoutTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-15T10:49:52" hostname="DESKTOP-KEH8HE0" time="0.07">
+  <properties/>
+  <testcase name="radialProjectionHasAnAccurateInverseAndPanReachesEveryIcon" classname="com.example.zhinote.HoneycombLayoutTest" time="0.017"/>
+  <testcase name="smallThirtyAndHundredItemsUseDistinctHexagonalCoordinates" classname="com.example.zhinote.HoneycombLayoutTest" time="0.004"/>
+  <testcase name="projectedIconsRemainTouchableSeparatedAndHitAtTheirDrawnCenters" classname="com.example.zhinote.HoneycombLayoutTest" time="0.049"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.zhinote.AiChatProtocolTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-15T10:12:25" hostname="DESKTOP-KEH8HE0" time="0.027">
+  <properties/>
+  <testcase name="reasoningBudgetExhaustionAndNullContentAreNotReportedAsSuccess" classname="com.example.zhinote.AiChatProtocolTest" time="0.013"/>
+  <testcase name="thinkingOnlyAndEmptyRepliesNeverBecomeNoteContent" classname="com.example.zhinote.AiChatProtocolTest" time="0.003"/>
+  <testcase name="stringAndTextBlockRepliesAreParsedWithoutReasoning" classname="com.example.zhinote.AiChatProtocolTest" time="0.011"/>
+  <testcase name="refusalAndProviderErrorsDoNotExposeRemoteDetails" classname="com.example.zhinote.AiChatProtocolTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

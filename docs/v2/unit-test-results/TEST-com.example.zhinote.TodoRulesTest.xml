@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.zhinote.TodoRulesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-15T09:22:35" hostname="DESKTOP-KEH8HE0" time="0.002">
+  <properties/>
+  <testcase name="monthlyRepeatClampsMonthEndAndRetainsHistory" classname="com.example.zhinote.TodoRulesTest" time="0.001"/>
+  <testcase name="overdueRecurrenceAdvancesBeyondNow" classname="com.example.zhinote.TodoRulesTest" time="0.0"/>
+  <testcase name="ordinaryCompletionDoesNotCreateAnotherTodo" classname="com.example.zhinote.TodoRulesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

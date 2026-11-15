@@ -1,0 +1,68 @@
+﻿{
+  "build": "debug",
+  "device": "2510DRK44C",
+  "android": "17",
+  "sdk": 37,
+  "scenarios": [
+    {
+      "requestedDrops": 10,
+      "baselineItems": 0,
+      "renderedDrops": 10,
+      "displayHz": 120.00001,
+      "sampleMs": 10000,
+      "frameCallbacks": 2402,
+      "frameCallbacksPerSecond": 240.2,
+      "meanFrameMs": 8.156056023313905,
+      "p95FrameMs": 9.547146,
+      "framesOverDisplayBudget": 798,
+      "gpuMeanMs": 3.3159215903413823,
+      "totalPssKb": 243930,
+      "processCpuMs": 7677
+    },
+    {
+      "requestedDrops": 20,
+      "baselineItems": 0,
+      "renderedDrops": 20,
+      "displayHz": 120.00001,
+      "sampleMs": 10000,
+      "frameCallbacks": 2364,
+      "frameCallbacksPerSecond": 236.4,
+      "meanFrameMs": 10.94378004399323,
+      "p95FrameMs": 13.127669,
+      "framesOverDisplayBudget": 2354,
+      "gpuMeanMs": 5.0531322681895094,
+      "totalPssKb": 271008,
+      "processCpuMs": 8651
+    },
+    {
+      "requestedDrops": 40,
+      "baselineItems": 0,
+      "renderedDrops": 40,
+      "displayHz": 120.00001,
+      "sampleMs": 10000,
+      "frameCallbacks": 2388,
+      "frameCallbacksPerSecond": 238.8,
+      "meanFrameMs": 14.184443185929648,
+      "p95FrameMs": 16.191582,
+      "framesOverDisplayBudget": 2388,
+      "gpuMeanMs": 6.920673796482412,
+      "totalPssKb": 239336,
+      "processCpuMs": 9126
+    },
+    {
+      "requestedDrops": 60,
+      "baselineItems": 0,
+      "renderedDrops": 60,
+      "displayHz": 120.00001,
+      "sampleMs": 10000,
+      "frameCallbacks": 2404,
+      "frameCallbacksPerSecond": 240.4,
+      "meanFrameMs": 14.709903124792014,
+      "p95FrameMs": 16.164761,
+      "framesOverDisplayBudget": 2404,
+      "gpuMeanMs": 7.020062266222962,
+      "totalPssKb": 242808,
+      "processCpuMs": 10532
+    }
+  ]
+}

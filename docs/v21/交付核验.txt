@@ -1,0 +1,13 @@
+2026-11-15 ZhiNote V2.1 UI build verification
+applicationId=com.example.zhinote
+versionName=2.0.1
+versionCode=3
+Signing SHA256=1079c974e7581db9eeea57ab64c469b0588a8f7578facaac0d07adb669290867
+Build APK SHA256=385ad4072ed2662c49d7b558e94cdc2f56b5038e572f9e2e7062786a29c9b4cb
+Installed APK SHA256=385ad4072ed2662c49d7b558e94cdc2f56b5038e572f9e2e7062786a29c9b4cb
+Overlay install: Success; no uninstall or application-data reset
+Original baseline files: 66; unchanged: 64; modified UI: 2
+Production additions: 3; test additions: 3
+Build: SUCCESS; JVM:22 passed; final device suite:8 passed; Lint:0 errors,37 warnings
+Legacy pre-V2 data snapshot:1 stale-state mismatch, documented in upgrade report
+Final source archive checks: see deliverables/ZhiNote-V2.1-UI-验证.txt

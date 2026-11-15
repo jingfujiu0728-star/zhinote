@@ -1,0 +1,71 @@
+INSTRUMENTATION_STATUS: class=com.example.zhinote.OriginalDataIntegrityDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.example.zhinote.OriginalDataIntegrityDeviceTest:
+INSTRUMENTATION_STATUS: test=everyPreUpgradeRecordStillExistsUnchanged
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.zhinote.OriginalDataIntegrityDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Existing todo/reminder/statistics must remain unchanged expected:<TodoEntity(id=[已遮蔽], title=[用户内容已遮蔽], description=, priority=1, dueDate=null, reminderTime=null, isCompleted=false, completedAt=null, createdAt=1794731957245, updatedAt=1794731965655, repeatRule=NONE, deletedAt=null, categoryId=null, tags=, recurrenceParentId=null, reminderDeliveredAt=null)> but was:<TodoEntity(id=[已遮蔽], title=[用户内容已遮蔽], description=, priority=1, dueDate=null, reminderTime=null, isCompleted=true, completedAt=1794735603585, createdAt=1794731957245, updatedAt=1794735603585, repeatRule=NONE, deletedAt=null, categoryId=null, tags=, recurrenceParentId=null, reminderDeliveredAt=null)>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at com.example.zhinote.OriginalDataIntegrityDeviceTest$everyPreUpgradeRecordStillExistsUnchanged$1.invokeSuspend(OriginalDataIntegrityDeviceTest.kt:25)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-e167b67fd1bbc8412803a7ffafa36a5151a2613c:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-e167b67fd1bbc8412803a7ffafa36a5151a2613c:1)
+	at com.example.zhinote.OriginalDataIntegrityDeviceTest.everyPreUpgradeRecordStillExistsUnchanged(OriginalDataIntegrityDeviceTest.kt:13)
+
+INSTRUMENTATION_STATUS: stream=
+Error in everyPreUpgradeRecordStillExistsUnchanged(com.example.zhinote.OriginalDataIntegrityDeviceTest):
+java.lang.AssertionError: Existing todo/reminder/statistics must remain unchanged expected:<TodoEntity(id=[已遮蔽], title=[用户内容已遮蔽], description=, priority=1, dueDate=null, reminderTime=null, isCompleted=false, completedAt=null, createdAt=1794731957245, updatedAt=1794731965655, repeatRule=NONE, deletedAt=null, categoryId=null, tags=, recurrenceParentId=null, reminderDeliveredAt=null)> but was:<TodoEntity(id=[已遮蔽], title=[用户内容已遮蔽], description=, priority=1, dueDate=null, reminderTime=null, isCompleted=true, completedAt=1794735603585, createdAt=1794731957245, updatedAt=1794735603585, repeatRule=NONE, deletedAt=null, categoryId=null, tags=, recurrenceParentId=null, reminderDeliveredAt=null)>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at com.example.zhinote.OriginalDataIntegrityDeviceTest$everyPreUpgradeRecordStillExistsUnchanged$1.invokeSuspend(OriginalDataIntegrityDeviceTest.kt:25)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-e167b67fd1bbc8412803a7ffafa36a5151a2613c:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-e167b67fd1bbc8412803a7ffafa36a5151a2613c:1)
+	at com.example.zhinote.OriginalDataIntegrityDeviceTest.everyPreUpgradeRecordStillExistsUnchanged(OriginalDataIntegrityDeviceTest.kt:13)
+
+INSTRUMENTATION_STATUS: test=everyPreUpgradeRecordStillExistsUnchanged
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.025
+There was 1 failure:
+1) everyPreUpgradeRecordStillExistsUnchanged(com.example.zhinote.OriginalDataIntegrityDeviceTest)
+java.lang.AssertionError: Existing todo/reminder/statistics must remain unchanged expected:<TodoEntity(id=[已遮蔽], title=[用户内容已遮蔽], description=, priority=1, dueDate=null, reminderTime=null, isCompleted=false, completedAt=null, createdAt=1794731957245, updatedAt=1794731965655, repeatRule=NONE, deletedAt=null, categoryId=null, tags=, recurrenceParentId=null, reminderDeliveredAt=null)> but was:<TodoEntity(id=[已遮蔽], title=[用户内容已遮蔽], description=, priority=1, dueDate=null, reminderTime=null, isCompleted=true, completedAt=1794735603585, createdAt=1794731957245, updatedAt=1794735603585, repeatRule=NONE, deletedAt=null, categoryId=null, tags=, recurrenceParentId=null, reminderDeliveredAt=null)>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at com.example.zhinote.OriginalDataIntegrityDeviceTest$everyPreUpgradeRecordStillExistsUnchanged$1.invokeSuspend(OriginalDataIntegrityDeviceTest.kt:25)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-e167b67fd1bbc8412803a7ffafa36a5151a2613c:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-e167b67fd1bbc8412803a7ffafa36a5151a2613c:1)
+	at com.example.zhinote.OriginalDataIntegrityDeviceTest.everyPreUpgradeRecordStillExistsUnchanged(OriginalDataIntegrityDeviceTest.kt:13)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
